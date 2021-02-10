@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+
+h1#titulo-hist {
+	font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    background-color: #ed4444;
+    color: #ffffff;
+    font-size: 25pt;
+    padding: 4px;
+    border: 1px solid black;
+    margin: 20px 0px 20px 200px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+article#hist-mercado {
+	display: block;
+	width: 1000px;
+	height: 600px;
+	position: relative;
+	margin: 0 auto;
+	border-top: 4px solid #ed4444;
+	border-bottom: 4px solid #ed4444;
+	margin-bottom: 20px;
+}
+
+article#hist-mercado h2 {
+	font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    background-color: #ed4444;
+    color: #ffffff;
+    font-size: 20pt;
+    padding: 4px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+article#hist-mercado p {
+	text-align: justify;
+	text-indent: 20px;
+	font-size: 15pt;
+}
+
+article#hist-mercado img {
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	height: 300px;
+	box-shadow: 0px 0px 2px 0px black;
+	margin-top: 30px;
+}

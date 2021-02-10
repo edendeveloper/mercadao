@@ -1,0 +1,245 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+
+body,html {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: rgba(0,0,0,1)
+    padding: 10px 0px 0px 0px;
+    
+}
+
+div#interface {
+    width: 100%;
+    background-color: #ffffff;
+    margin: -10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 0px;
+    position: absolute;
+    border: 1px solid rgba(0,0,0,0.5);
+
+}
+
+p {
+    text-align: justify;
+    text-indent: 40px;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1,h2,h3 {
+    margin: 10px;
+}
+
+
+
+header#cabecalho {
+    display: box;
+    border-bottom: 1px #606060 solid;
+    height: 100px;
+    
+    background-color: #d42121;
+    box-shadow: 0px 0px 2px 0px black;
+    width: 100%;
+    
+}
+
+header#cabecalho figure#logo {
+    max-width: 200px;
+    max-height: 100px;
+    margin: 0;
+
+}
+
+/* Formatação do menu */
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 8px;
+    left: 200px;
+
+}
+
+nav#menu li {
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    background-color: #ed4444;
+    padding: 15px;
+    margin: 2px;
+    transition: background-color 0.5s;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+nav#menu li:hover {
+    background-color: #cc0000;
+    color: white;
+}
+
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: white;
+}
+
+/* Formatação do artigo Saiba Mais */
+
+article#saiba-mais {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    background-color: #ffffff;
+    border-bottom: 4px solid #ed4444;
+}
+article#saiba-mais h1 {
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    background-color: #ed4444;
+    color: #ffffff;
+    font-size: 20pt;
+    padding: 4px;
+    border: 1px solid black;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+article#saiba-mais p {
+    color: black;
+    text-align: justify;
+    font-size: 16pt;
+}
+
+/* Formatação do artigo Principais Noticias */
+
+article#p-noticias {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    overflow: hidden;
+    list-style: none;
+    background-color: #ffffff;
+    border-bottom: 4px solid #ed4444;
+}
+
+article#p-noticias h1 {
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    background-color: #ed4444;
+    color: #ffffff;
+    font-size: 20pt;
+    padding: 4px;
+    border: 1px solid black;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+article#p-noticias h5 {
+    font-family: 'PT Sans', sans-serif;
+    display: block;
+    width: 600px;
+    height: 32px;
+    background-color: #ed4444;
+    color: #ffffff;
+    font-size: 16pt;
+    padding: 4px;
+    border: 1px solid black;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+article#p-noticias p {
+    color: black;
+    text-align: justify;
+    font-size: 16pt;
+    margin-top: 25px;
+}
+
+article#p-noticias img {
+    display: block;
+    width: 800px;
+    height: 450px;
+    box-shadow: 0px 0px 2px 0px black;
+    margin: 20px 100px 0px 100px;
+}
+
+/* Formatação do rodapé */
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+    background: rgba(42, 42, 42, 0.7);
+    height: 600px;
+    max-height: 640px;
+    position: absolute;
+    width: 100%;
+}
+
+footer#rodape p {
+    text-align: center;
+    color:white;
+    margin-top:60px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+footer#rodape a {
+    color: white;
+    text-decoration: none;
+}
+
+
+footer#rodape figure#anuncio01 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 210px;
+    margin: 0 auto;
+    margin-top: 14px;
+    position: relative;
+    padding: 10px;
+
+}
+
+footer#rodape figure#anuncio02 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 210px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+    padding: 10px;
+
+}
+

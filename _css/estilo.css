@@ -1,0 +1,374 @@
+﻿@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+
+body,html {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: rgba(0,0,0,1)
+    padding: 10px 0px 0px 0px;
+    
+}
+
+div#interface {
+    width: 100%;
+    background-color: #ffffff;
+    margin: -10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 0px;
+    position: absolute;
+    border: 1px solid rgba(0,0,0,0.5);
+
+}
+
+p {
+    text-align: justify;
+    text-indent: 40px;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1,h2,h3 {
+    margin: 10px;
+}
+
+
+
+header#cabecalho {
+    display: box;
+    border-bottom: 1px #606060 solid;
+    height: 100px;
+    
+    background-color: #d42121;
+    box-shadow: 0px 0px 2px 0px black;
+    width: 100%;
+    
+}
+
+header#cabecalho figure#logo {
+    max-width: 200px;
+    max-height: 100px;
+    margin: 0;
+
+}
+
+/* Formatação do menu */
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 8px;
+    left: 200px;
+
+}
+
+nav#menu li {
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    background-color: #ed4444;
+    padding: 15px;
+    margin: 2px;
+    transition: background-color 0.5s;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+nav#menu li:hover {
+    background-color: #cc0000;
+    color: white;
+}
+
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: white;
+}
+
+/* Formatação do artigo Saiba Mais */
+
+article#saiba-mais {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    background-color: #ffffff;
+    border-bottom: 4px solid #ed4444;
+}
+article#saiba-mais h1 {
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    background-color: #ed4444;
+    color: #ffffff;
+    font-size: 20pt;
+    padding: 4px;
+    border: 1px solid black;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+article#saiba-mais p {
+    color: black;
+    text-align: justify;
+    font-size: 16pt;
+}
+
+/* Formatação do artigo Principais Noticias */
+
+article#p-noticias {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    overflow: hidden;
+    list-style: none;
+    background-color: #ffffff;
+    border-bottom: 4px solid #ed4444;
+}
+
+article#p-noticias h1 {
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    background-color: #ed4444;
+    color: #ffffff;
+    font-size: 20pt;
+    padding: 4px;
+    border: 1px solid black;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+article#p-noticias h5 {
+    font-family: 'PT Sans', sans-serif;
+    display: block;
+    width: 600px;
+    height: 32px;
+    background-color: #ed4444;
+    color: #ffffff;
+    font-size: 16pt;
+    padding: 4px;
+    border: 1px solid black;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+article#p-noticias p {
+    color: black;
+    text-align: justify;
+    font-size: 16pt;
+    margin-top: 25px;
+}
+
+article#p-noticias img {
+    display: block;
+    width: 800px;
+    height: 450px;
+    box-shadow: 0px 0px 2px 0px black;
+    margin: 20px 100px 0px 100px;
+}
+
+/* Formatação do rodapé */
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+    background: rgba(42, 42, 42, 0.7);
+    height: 100%;
+    max-height: 645px;
+    position: absolute;
+    width: 100%;
+}
+
+footer#rodape p {
+    text-align: center;
+    color:white;
+    margin-top:600px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+footer#rodape a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Formatação da area de fale conosco no rodapé */
+
+footer#rodape section#fale-conosco {
+    display: block;
+    margin: 20px 10px 10px 0px;
+    padding: 10px;
+    width: 500px;
+    height: 550px;
+    float: left;
+}
+
+footer#rodape section#fale-conosco h1 {
+    color: white;
+}
+
+footer#rodape section#fale-conosco .espaco {
+    display: inline-block;
+    margin: 10px 10px 10px 0px;
+    position: relative;
+    width: 250px;
+    max-width: 250px;
+    
+}
+
+
+footer#rodape section#fale-conosco .espaco label {
+    color: white;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+footer#rodape section#fale-conosco .espaco input {
+    background: white;
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    max-height: 50px;
+    font-size: 15pt;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+footer#rodape section#fale-conosco .espaco textarea {
+    background: white;
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    max-height: 80px;
+    font-size: 15pt;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+footer#rodape section#fale-conosco div#form-holder {
+    display: block;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+    border-top: 4px solid white;
+    width: 400px;
+    height: 380px;
+    border-bottom: 4px solid white;
+}
+
+footer#rodape section#fale-conosco div#botao-sub button {
+    margin: 10px 4px 4px 0px;
+    display: block;
+    color: black;
+    background: #ffffff;
+    width: 60px;
+    height: 30px;
+    box-shadow: 0px 0px 2px 0px black;
+    padding: 0px;
+    
+}
+
+footer#rodape section#fale-conosco div#botao-sub button:hover {
+    background: #424242;
+    transition: 0.3s;
+    color: white;
+    cursor: pointer;
+}
+
+/* Formatação da area de contatos do rodapé */
+
+footer#rodape aside#contatos {
+    display: block;
+    width: 500px;
+    height: 500px;
+    float: right;
+    padding: 10px;
+    margin: 20px 10px 10px 450px;
+    position: absolute;
+    
+}
+
+footer#rodape aside#contatos div#bloco-contatos {
+    display: block;
+    margin: 10px 10px 10px 0px;
+    border-top: 4px solid white;
+    padding: 10px;
+    width: 400px;
+    height: 380px;
+    position: relative;
+    border-bottom: 4px solid white;
+}
+
+footer#rodape aside#contatos  h1 {
+    color: white;
+}
+
+footer#rodape aside#contatos div#bloco-contatos h2 {
+    color: white;
+    margin: 20px 0px 20px 8px;  
+}
+
+footer#rodape aside#contatos div#bloco-contatos h4 {
+    color: white;
+    margin: 20px 0px 20px 12px;  
+}
+
+footer#rodape aside#contatos aside#anuncios div#contatos {
+    display: block;
+    width: 400px;
+    height: 400px;
+    float: right;
+    padding: 10px;
+    margin: 10px 900px;
+    position: absolute;
+    border: 5px solid black;
+}
+
+footer#rodape figure#anuncio01 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 210px;
+    margin: 0 auto;
+    margin-top: 14px;
+    position: relative;
+    float: right;
+    padding: 10px;
+
+}
+
+footer#rodape figure#anuncio02 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 210px;
+    margin: 14px 0px 0px 200px;
+    position: relative;
+    float: right;
+    padding: 10px;
+
+}
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html5>
+<html lang="pt-br">
+<head>
+    <title>Mercado Municipal de Americana</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <link rel="icon" href="_imagens/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="_css/lojas.css">
+    <link rel="shortcut icon" href="_imagens/logo.ico" type="image/x-icon" />    
+</head>
+<body>
+<div id="interface">
+    <header id="cabecalho">
+        <figure id="logo">
+            <a href="index.html"><img src="_imagens/logo.png"></a>
+        </figure>   
+        <nav id="menu">
+            <ul>
+                <li><a href="lojas.html">Lojas</a></li>
+                <li><a href="acervo.html">Acervo</a></li>
+                <li><a href="noticias.html">Noticías</a></li>
+                <li><a href="como-chegar.html">Como chegar</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav id="bloco-lojas">
+        <ul id="lista-lojas">
+            <a href="doc-lojas.html#acougue-prime" target="janela"><li>Açougue</li></a>         <a href="doc-lojas.html#aquario" target="janela"><li>Aquário</li></a>
+            <a href="doc-lojas.html#armarinho" target="janela"><li>Armarinho</li></a>      <a href="doc-lojas.html#artesanatos" target="janela"><li>Artesanatos</li></a>
+            <a href="doc-lojas.html#barbearia" target="janela"><li>Barbearia</li></a>       <a href="doc-lojas.html#bebidas" target="janela"><li>Bebidas</li></a>
+            <a href="doc-lojas.html#bolachas" target="janela"><li>Bolachas</li></a>        <a href="doc-lojas.html#cabeleireiro" target="janela"><li>Cabeleireiro</li></a>
+            <a href="doc-lojas.html#cafe" target="janela"><li>Café</li></a>            <a href="doc-lojas.html#calçados" target="janela"><li>Calçados</li></a>
+            <a href="doc-lojas.html#cereais" target="janela"><li>Cereais</li></a>         <a href="doc-lojas.html#chapelaria" target="janela"><li>Chapelaria</li></a>
+            <a href="doc-lojas.html#confeccao" target="janela"><li>Confecção</li></a>       <a href="doc-lojas.html#congelados" target="janela"><li>Congelados</li></a>
+            <a href="doc-lojas.html#cosmeticos" target="janela"><li>Cosméticos</li></a>      <a href="doc-lojas.html#doces" target="janela"><li>Doces</li></a>
+            <a href="doc-lojas.html#embalagens" target="janela"><li>Embalagens</li></a>      <a href="doc-lojas.html#emporio" target="janela"><li>Empório</li></a>
+            <a href="doc-lojas.html#especiarias" target="janela"><li>Especiarias</li></a>     <a href="doc-lojas.html#farmacia" target="janela"><li>Farmácia</li></a>
+            <a href="doc-lojas.html#frutas" target="janela"><li>Frutas</li></a>          <a href="doc-lojas.html#info" target="janela"><li>Informática e Celulares</li></a>
+            <a href="doc-lojas.html#lanchonete" target="janela"><li>Lanchonete</li></a>      <a href="doc-lojas.html#loteria" target="janela"><li>Loterias</li></a>
+            <a href="doc-lojas.html#massas" target="janela"><li>Massas</li></a>          <a href="doc-lojas.html#marcearia" target="janela"><li>Mercearias</li></a>
+            <a href="doc-lojas.html#organicos" target="janela"><li>Orgânicos</li></a>       <a href="doc-lojas.html#peixaria" target="janela"><li>Peixaria</li></a>
+            <a href="doc-lojas.html#petshop" target="janela"><li>Pet Shop</li></a>        <a href="doc-lojas.html#presentes" target="janela"><li>Presentes</li></a>
+            <a href="doc-lojas.html#relojoaria" target="janela"><li>Relojoaria</li></a>      <a href="doc-lojas.html#restaurante" target="janela"><li>Restaurante</li></a>
+            <a href="doc-lojas.html#revistaria" target="janela"><li>Revistaria</li></a>      <a href="doc-lojas.html#sapataria" target="janela"><li>Sapataria</li></a>
+            <a href="doc-lojas.html#sm" target="janela"><li>Secos e Molhados</li></a> <a href="doc-lojas.html#sorveteria" target="janela"><li>Sorveteria</li></a>
+            <a href="doc-lojas.html#tabacaria" target="janela"><li>Tabacaria</li></a>       <a href="doc-lojas.html#vestuario" target="janela"><li>Vestuário</li></a>           
+        </ul> 
+        <iframe src="doc-lojas.html" id="lojas-frame" name="janela" scrolling="no"></iframe>
+    </nav>
+
+    <footer id="rodape">
+        <section id="fale-conosco">
+        
+            <h1 id="titulo-fale">Fale Conosco</h1>
+            
+            <div id="form-holder">
+                <form method="post" action="enviar.php">
+                    
+                    <div class="espaco">
+                    <label></label>
+                    <input name="nomex" placeholder="Nome">
+                    </div>
+
+                    <div class="espaco">
+                    <label></label>
+                    <input name="email" type="email" placeholder="E-mail">
+                    </div>
+
+                    <div class="espaco">
+                    <label></label>
+                    <textarea name="msg" placeholder="Mensagem"></textarea>
+                    </div>        
+
+                    <div id="botao-sub">
+                    <button class="botao-submit" type="submit" name="submit">Enviar</button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+
+        <aside id="contatos">    
+            <h1> Contatos </h1>                 
+                <div id="bloco-contatos">
+                    <h2> Email </h2>
+                    <h4> mercadao.americanasp@hotmail.com</h4>
+                    <h2> Telefone </h2>
+                    <h4> 19 3466-0000 </h4>
+                    <h2> Endereço </h2>
+                    <h4> Av. Dr. Antônio Lobo, 8 - Centro, </h4> 
+                    <h4> Americana - SP, 13465-005 </h4>
+                </div>
+        </aside>
+        <figure id="anuncio01">
+            <img src="_imagens/anuncio-logitech.png">
+        </figure>
+        <figure id="anuncio02">
+            <img src="_imagens/anuncie-aqui.png">
+        </figure>
+        <p>Copyright 2019 &copy; - by Welington Manfrim <br/>
+        <a href="https://www.facebook.com/Mercado-Municipal-237562232955245/" target="_blank">Facebook </a>| 
+        <a href="https://twitter.com/EdenLothus" target="_blank">Twitter</a></p>
+    </footer>
+</div>
+<body>
+</html>

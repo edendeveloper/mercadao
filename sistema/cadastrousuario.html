@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro de Usuário</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+<h1>Formulário Cadastro de Usuário</h1>
+
+<form method="post" action="cadusuario.php">
+<fieldset>
+	
+	<fieldset class="grupo">
+		<div class="campo">
+			<label for="nome">Nome</label>
+			<input type="text" id="nome" name="nome" style="width: 20em" value="" />
+		</div>
+		<div class="campo">
+			<label for="senha">Senha</label>
+			<input type="password" id="senha" name="senha" style="width: 20em" value="" />
+		</div>
+	</fieldset>	
+	
+	<div class="campo">
+		<label for="email">E-mail</label>
+		<input type="text" id="email" name="email" style="width: 41em" value="" />
+	</div>
+
+	<div class="campo">
+		<label for="telefone">Telefone</label>
+		<input type="text" id="telefone" name="telefone" style="width: 20em"  value="" />
+	</div>
+	
+	<fieldset class="grupo">
+		<div class="campo">
+			<label for="cidade">Cidade</label>
+			<input type="text" id="cidade" name="cidade" style="width: 20em" value="" />
+		</div>
+		<div class="campo">
+			<label for="estado">Estado</label>
+			<select name="estado" id="estado">
+				<option value="">--</option>
+				<option value="MG">MG</option>
+				<option value="PR">PR</option>
+				<option value="RJ">RJ</option>
+				<option value="SP">SP</option>
+			</select>
+		</div>
+	</fieldset>
+
+	<div class="campo">
+		<label for="obs">Observação</label>
+		<textarea rows="4" style="width: 41em" id="obs" name="obs"></textarea>
+	</div>
+	
+	<button class="botao submit" type="submit" name="submit">Enviar</button>
+	
+</fieldset>
+</form>
+
+</body>
+</html>

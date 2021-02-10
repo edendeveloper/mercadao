@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+ul#listaEventos {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+	background-color: #ffffff;
+	border-bottom: 4px solid #ed4444;
+	border-top: 4px solid #ed4444;
+}
+
+ul#listaEventos li {
+	float: left;
+	width: 150px;
+	height: 140px;
+	margin: 20px;
+	border: 1px solid black;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+	-webkit-transition: all 0.3s ease-in;
+}
+
+ul#listaEventos h1#tituloEventos {
+	font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    background-color: #ed4444;
+    color: #ffffff;
+    font-size: 20pt;
+    padding: 4px;
+    border: 1px solid black;
+    margin-right: 860px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+ul#listaEventos h1#tituloEventos:hover {
+	background-color:#cc0000;
+	color: white;
+}
+
+ul#listaEventos li span {
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,0.7);
+	font-size: 9pt;
+	line-height: 260px;
+	padding: 5px;
+
+}
+
+ul#listaEventos li:hover {
+	-webkit-transform: scale(1.5);
+}
+
+ul#listaEventos li:hover span {
+	opacity: 1;	
+}
+
+ul#listaEventos li#eventos01 {
+	background: url(../_imagens/pascoa.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #ffffff;
+}
+
+ul#listaEventos li#eventos01:hover {
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+ul#listaEventos li#eventos02 {
+	background: url(../_imagens/black-friday.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #ffffff;
+}
+
+ul#listaEventos li#eventos02:hover {
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+ul#listaEventos li#eventos03 {
+	background: url(../_imagens/sangue.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #ffffff;
+}
+
+ul#listaEventos li#eventos03:hover {
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+ul#listaEventos li#eventos04 {
+	background: url(../_imagens/flores.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #ffffff;
+}
+
+ul#listaEventos li#eventos04:hover {
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+ul#listaEventos li#eventos05 {
+	background: url(../_imagens/eden.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #ffffff;
+}
+
+ul#listaEventos li#eventos05:hover {
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+ul#listaEventos li#eventos06 {
+	background: url(../_imagens/carnaval.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #ffffff;
+}
+
+ul#listaEventos li#eventos06:hover {
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+ul#listaEventos li#eventos07 {
+	background: url(../_imagens/mae.png) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #ffffff;
+}
+
+ul#listaEventos li#eventos07:hover {
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+ul#listaEventos li#eventos08 {
+	background: url(../_imagens/maio.png) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #ffffff;
+}
+
+ul#listaEventos li#eventos08:hover {
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+ul#listaEventos li#eventos09 {
+	background: url(../_imagens/esports.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #ffffff;
+}
+
+ul#listaEventos li#eventos09:hover {
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+ul#listaEventos li#eventos10 {
+	background: url(../_imagens/palestra.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #ffffff;
+}
+
+ul#listaEventos li#eventos10:hover {
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}

@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+div#menu-noticias h1#titulo {
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    background-color: #ed4444;
+    color: #ffffff;
+    font-size: 20pt;
+    padding: 4px;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px 0px black;
+
+}
+
+
+div#menu-noticias article h1 {
+	font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    background-color: #ed4444;
+    color: #ffffff;
+    font-size: 20pt;
+    padding: 4px;
+    border: 1px solid black;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    box-shadow: 0px 0px 2px 0px black;
+
+}
+
+div#menu-noticias p {
+	color: black;
+    text-align: justify;
+    font-size: 16pt;
+}
+
+div#menu-noticias p.link-not {
+    display: inline-block;
+    background-color: #ed4444;
+    color: black;
+    margin-left: 0px;
+    padding: 4px;
+    text-indent: 0px;
+    border: 1px solid black;
+    font-size: 16pt;
+    margin-top: 30pt;
+    transition: background-color 0.5s;
+}
+
+div#menu-noticias p.link-not:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #cc0000;
+}
+
+div#menu-noticias article img {
+	width: 600px;
+	height: 400px;
+	margin-left: 200px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	position: relative;
+	box-shadow: 1px 1px 5px 1px black;
+}
+
+div#menu-noticias article {
+	width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    background-color: #ffffff;
+    border-bottom: 4px solid #ed4444;
+}
+
+div#menu-noticias article#a1 {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    background-color: #ffffff;
+    border-bottom: 4px solid #ed4444;
+    border-top: 4px solid #ed4444;
+}
